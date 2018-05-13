@@ -26,6 +26,8 @@
 @import "./vendor/fontawesome-free-5.0.12/core";
 @import "./vendor/fontawesome-free-5.0.12/icons";
 
+@import "./vendor/fontawesome-free-5.0.12/fa-solid";
+
 // Global
 html {
     height: 100%;
@@ -34,6 +36,27 @@ html {
 body {
     height: 100%;
     text-align: center;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    margin-bottom: -$footer-height;
+}
+
+// Footer
+.push {
+    height: $footer-height;
+}
+
+.sticky-footer {
+    height: $footer-height;
+    background-color: $material-color-grey-400;
+
+    p {
+        line-height: $footer-height;
+        color: $material-color-grey-100;
+        margin: 0;
+    }
 }
 
 // Navbar

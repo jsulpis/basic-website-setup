@@ -13,46 +13,58 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Features</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Credits
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="content-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Features</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Credits
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Content -->
-    <div class="container">
-        <h2 class="mdc-typography--headline5">Do you like this boilerplate ?</h2>
-        <button id="yes-btn" class="mdc-button mdc-button--raised">Yes</button>
-        <button id="no-btn" class="mdc-button mdc-button--raised">No</button>
-        <br>
-        <div class="img">
-            <img class="meme">
-            <p class="message mdc-typography--body2"></p>
+        <!-- Content -->
+        <div class="container">
+            <h2 class="mdc-typography--headline5">Do you like this boilerplate ?</h2>
+            <button id="yes-btn" class="mdc-button mdc-button--raised">Yes</button>
+            <button id="no-btn" class="mdc-button mdc-button--raised">No</button>
+            <br>
+            <div class="img">
+                <img class="meme">
+                <p class="message mdc-typography--body2"></p>
+            </div>
+            <p class="mdc-typography--body1">Allow more people to view it!
+                <i class="far fa-smile"></i>
+            </p>
+            <iframe src="https://ghbtns.com/github-btn.html?user=jsulpis&repo=static-website-boilerplate&type=star&count=true&size=large"
+                frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+            <p class="mdc-typography--body1">Fork it, improve it and open a pull request!</p>
+            <iframe src="https://ghbtns.com/github-btn.html?user=jsulpis&repo=static-website-boilerplate&type=fork&count=true&size=large"
+                frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
         </div>
-        <p class="mdc-typography--body1">Allow more people to view it!
-            <i class="far fa-smile"></i>
-        </p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=jsulpis&repo=static-website-boilerplate&type=star&count=true&size=large"
-            frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-        <p class="mdc-typography--body1">Fork it, improve it and open a pull request!</p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=jsulpis&repo=static-website-boilerplate&type=fork&count=true&size=large"
-            frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+        <!-- Div to push the footer at the bottom -->
+        <div class="push"></div>
     </div>
+
+    <!-- Footer -->
+    <footer class="sticky-footer">
+        <p class="mdc-typography--body1">
+            &copy; 2018 - made with
+            <i class="fas fa-heart"></i> by Julien Sulpis
+        </p>
+    </footer>
 
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <script src="js/vendor/bootstrap-4.0.0/util.js"></script>
