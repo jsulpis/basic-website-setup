@@ -21,6 +21,11 @@
 @import "./vendor/material-components-web/mdc-theme/color-palette";
 @import "./vendor/material-components-web/mdc-typography/mdc-typography";
 
+@import "./vendor/fontawesome-free-5.0.12/variables";
+@import "./vendor/fontawesome-free-5.0.12/mixins";
+@import "./vendor/fontawesome-free-5.0.12/core";
+@import "./vendor/fontawesome-free-5.0.12/icons";
+
 // Global
 html {
     height: 100%;

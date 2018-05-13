@@ -1,1 +1,32 @@
 @import "globals";
+
+@import "./vendor/fontawesome-free-5.0.12/fa-regular";
+@import "./vendor/material-components-web/mdc-button/mdc-button";
+
+h2 {
+    text-align: center;
+}
+
+#yes-btn {
+    background-color: $material-color-green-300;
+}
+
+#no-btn {
+    background-color: $material-color-red-300;
+}
+
+button {
+    margin: $default-spacing;
+}
+
+p {
+    margin: 10px;
+}
+
+.meme {
+    max-height: 172px;
+}
+
+.img {
+    min-height: 250px;
+}
