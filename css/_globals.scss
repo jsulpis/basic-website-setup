@@ -1,0 +1,52 @@
+// You Sass code that will be reused in all your pages
+
+// Definitions
+@import "variables";
+@import "functions";
+@import "mixins";
+
+// External librairies
+// Import only what you need, to optimize file sizes
+@import "./vendor/bootstrap-4.0.0/functions";
+@import "./vendor/bootstrap-4.0.0/variables";
+@import "./vendor/bootstrap-4.0.0/mixins";
+@import "./vendor/bootstrap-4.0.0/root";
+@import "./vendor/bootstrap-4.0.0/reboot";
+@import "./vendor/bootstrap-4.0.0/grid";
+@import "./vendor/bootstrap-4.0.0/transitions";
+@import "./vendor/bootstrap-4.0.0/nav";
+@import "./vendor/bootstrap-4.0.0/navbar";
+@import "./vendor/bootstrap-4.0.0/utilities";
+
+@import "./vendor/material-components-web/mdc-theme/color-palette";
+@import "./vendor/material-components-web/mdc-typography/mdc-typography";
+
+// Global
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+}
+
+// Navbar
+.navbar-toggler {
+    border: none;
+}
+
+.navbar {
+    background-color: $material-color-grey-100;
+}
+
+// Titles
+h1 {
+    text-align: left;
+    margin-top: $default-spacing;
+}
+
+h2 {
+    margin-top: double($default-spacing); // we call our function defined in _functions.scss
+    text-align: left;
+}

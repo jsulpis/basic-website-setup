@@ -1,0 +1,6 @@
+// Your Sass mixins
+
+@mixin set-background($size, $url) {
+    background-image: url($url);
+    background-size: $size;
+}
