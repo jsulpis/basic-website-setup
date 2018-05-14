@@ -22,7 +22,7 @@ $media-list: (
 
 @each $name, $size in $media-list {
     .#{$name}-card {
-        @include set-background($size, "../../img/brands/" + $name + ".png");
+        @include set-background($size, "../img/brands/" + $name + ".png");
     }
 }
 
