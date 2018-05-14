@@ -39,13 +39,8 @@ body {
 }
 
 .content-wrapper {
-    min-height: 100%;
-    margin-bottom: -$footer-height;
-}
-
-// Footer
-.push {
-    height: $footer-height;
+    min-height: calc(100vh - #{$footer-height} - 5px);
+    margin-bottom: 5px;
 }
 
 .sticky-footer {
