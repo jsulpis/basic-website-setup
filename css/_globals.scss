@@ -7,26 +7,26 @@
 
 // External librairies
 // Import only what you need, to optimize file sizes
-@import "./vendor/bootstrap-4.0.0/functions";
-@import "./vendor/bootstrap-4.0.0/variables";
-@import "./vendor/bootstrap-4.0.0/mixins";
-@import "./vendor/bootstrap-4.0.0/root";
-@import "./vendor/bootstrap-4.0.0/reboot";
-@import "./vendor/bootstrap-4.0.0/grid";
-@import "./vendor/bootstrap-4.0.0/transitions";
-@import "./vendor/bootstrap-4.0.0/nav";
-@import "./vendor/bootstrap-4.0.0/navbar";
-@import "./vendor/bootstrap-4.0.0/utilities";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/utilities";
 
-@import "./vendor/material-components-web/mdc-theme/color-palette";
-@import "./vendor/material-components-web/mdc-typography/mdc-typography";
+@import "@material/theme/color-palette";
+@import "@material/typography/mdc-typography";
 
-@import "./vendor/fontawesome-free-5.0.12/variables";
-@import "./vendor/fontawesome-free-5.0.12/mixins";
-@import "./vendor/fontawesome-free-5.0.12/core";
-@import "./vendor/fontawesome-free-5.0.12/icons";
+// @import "./vendor/fontawesome-free-5.0.12/variables";
+// @import "./vendor/fontawesome-free-5.0.12/mixins";
+// @import "./vendor/fontawesome-free-5.0.12/core";
+// @import "./vendor/fontawesome-free-5.0.12/icons";
 
-@import "./vendor/fontawesome-free-5.0.12/fa-solid";
+// @import "./vendor/fontawesome-free-5.0.12/fa-solid";
 
 // Global
 html {

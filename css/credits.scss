@@ -1,7 +1,7 @@
 @import "globals";
 
-@import "./vendor/fontawesome-free-5.0.12/fa-regular";
-@import "./vendor/material-components-web/mdc-button/mdc-button";
+// @import "./vendor/fontawesome-free-5.0.12/fa-regular";
+@import "@material/button/mdc-button";
 
 h2 {
     text-align: center;

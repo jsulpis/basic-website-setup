@@ -1,9 +1,9 @@
 @import "globals";
 
-@import "./vendor/material-components-web/mdc-card/mdc-card";
-@import "./vendor/material-components-web/mdc-button/mdc-button";
-@import "./vendor/material-components-web/mdc-elevation/mdc-elevation";
-@import "./vendor/material-components-web/mdc-animation/functions";
+@import "@material/card/mdc-card";
+@import "@material/button/mdc-button";
+@import "@material/elevation/mdc-elevation";
+@import "@material/animation/functions";
 
 // Cards
 .my-card__media {
