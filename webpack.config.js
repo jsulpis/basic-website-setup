@@ -1,10 +1,16 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
-    entry: [
-        './css/index.scss',
-        './css/credits.scss'
-    ],
+    entry: {
+        credits: './js/credits.js',
+        index: './js/index.js'
+    },
+    output: {
+		path: path.resolve('./dist/'),
+		filename: 'js/[name].bundle.js',
+		publicPath: '/'
+	},
     module: {
         rules: [
             {
@@ -13,7 +19,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: '[name].css',
+                            name: '[name].bundle.css',
                             context: 'css/',
                             outputPath: 'css/',
                             publicPath: '../'
@@ -34,18 +40,25 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(jpg|png)$/,
+                test: /\.(jpg|png|webp)$/,
                 use: [
                     {
                         loader: 'file-loader',
                         options: {
-                            name: '[name].[ext]',
-                            outputPath: 'img/',
-                            publicPath: '../img/'
+                            name: '[path][name].[ext]',
+                            outputPath: '/',
+                            publicPath: '../'
                         }
                     }
                 ]
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.ProvidePlugin({
+          "$":"jquery",
+          "jQuery":"jquery",
+          "window.jQuery":"jquery"
+        })
+    ]
 };
