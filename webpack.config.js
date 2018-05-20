@@ -1,36 +1,27 @@
 var path = require('path');
-var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        credits: './js/credits.js',
-        index: './js/index.js'
+        credits: './src/js/credits.js',
+        index: './src/js/index.js',
     },
     output: {
 		path: path.resolve('./dist/'),
 		filename: 'js/[name].bundle.js',
-		publicPath: '/'
 	},
     module: {
         rules: [
             {
+                test: /\.html$/,
+                use: ['html-loader']
+            },
+            {
                 test: /\.scss$/,
                 use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].bundle.css',
-                            context: 'css/',
-                            outputPath: 'css/',
-                            publicPath: '../'
-                        }
-                    },
-                    {
-                        loader: 'extract-loader'
-                    },
-                    {
-                        loader: 'css-loader'
-                    },
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
                     {
                         loader: 'sass-loader',
                         options: {
@@ -46,7 +37,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[path][name].[ext]',
-                            outputPath: '/',
+                            context:"./src",
                             publicPath: '../'
                         }
                     }
@@ -55,10 +46,18 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.ProvidePlugin({
-          "$":"jquery",
-          "jQuery":"jquery",
-          "window.jQuery":"jquery"
+        new MiniCssExtractPlugin({
+            filename: "css/[name].bundle.css",
+          }),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: 'src/index.html',
+            chunks: ['index']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'credits.html',
+            template: 'src/credits.html',
+            chunks: ['credits']
         })
     ]
 };

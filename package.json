@@ -1,6 +1,6 @@
 {
   "name": "static-website-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Static website boilerplate using Webpack, Bootstrap, JQuery and Material Design",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,6 +29,9 @@
     "css-loader": "^0.28.11",
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "webpack": "^4.8.3",

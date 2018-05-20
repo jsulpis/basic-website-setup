@@ -1,10 +1,10 @@
 // CSS
-import "../css/credits.scss";
+import "../scss/credits.scss";
 
 // Javascript
-import "../node_modules/jquery/dist/jquery.min.js";
-import "../node_modules/bootstrap/js/src/util.js";
-import "../node_modules/bootstrap/js/src/collapse.js";
+// JQuery is loaded in util.js
+import "bootstrap/js/src/util.js";
+import "bootstrap/js/src/collapse.js";
 
 
 // Font Awesome
@@ -17,6 +17,8 @@ fontawesome.library.add(faHeart, faSmile);
 // Custom code
 import "../img/gif/happy.webp";
 import "../img/gif/sad.webp";
+
+import $ from 'jquery';
 
 $("#yes-btn").on("click", function() {
     $(".meme").attr("src", "img/gif/happy.webp");
