@@ -1,6 +1,9 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     entry: {
@@ -46,6 +49,7 @@ module.exports = {
         ]
     },
     plugins: [
+        new CleanWebpackPlugin(['dist']),
         new MiniCssExtractPlugin({
             filename: "css/[name].bundle.css",
           }),
@@ -58,6 +62,7 @@ module.exports = {
             filename: 'credits.html',
             template: 'src/credits.html',
             chunks: ['credits']
-        })
+        }),
+        new BundleAnalyzerPlugin()
     ]
 };
