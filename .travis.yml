@@ -9,6 +9,7 @@ cache:
 branches:
   only:
   - 02-complete-npm-webpack-setup
+  - /^greenkeeper/.*$/
 
 install:
   - npm install
