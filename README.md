@@ -1,11 +1,16 @@
 <h1 align="center">Multi-page website boilerplate</h1>
 
 <h3 align="center">A boilerplate using common frontend librairies and optimized with Webpack.</h>
+
 <p align="center">
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/jsulpis/static-website-boilerplate.svg)](https://greenkeeper.io/)
-
+  
+  [![Build Status](https://travis-ci.org/jsulpis/static-website-boilerplate.svg?branch=02-complete-npm-webpack-setup)](https://travis-ci.org/jsulpis/static-website-boilerplate)
+  [![dependencies Status](https://david-dm.org/jsulpis/static-website-boilerplate/status.svg)](https://david-dm.org/jsulpis/static-website-boilerplate)
+  [![devDependencies Status](https://david-dm.org/jsulpis/static-website-boilerplate/dev-status.svg)](https://david-dm.org/jsulpis/static-website-boilerplate?type=dev)
+  [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/jsulpis/static-website-boilerplate.svg)](https://greenkeeper.io/)
+  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/static-website-boilerplate/maintainability)
+  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/static-website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/static-website-boilerplate&amp;utm_campaign=Badge_Grade)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 </p>
 
 <p align="center">
