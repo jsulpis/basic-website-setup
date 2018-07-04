@@ -19,13 +19,13 @@ import "../img/gif/sad.webp";
 
 import $ from "jquery";
 
-setupButtons("#yes-btn", "happy.webp", "Cool! I hope it can help you!");
-setupButtons("#no-btn", "sad.webp", "Well... nobody is perfect!");
-
-// Function used to avoid code duplication 
-function setupButtons(buttonTag, imageName, message){
+// Function used to avoid code duplication
+function setupButtons(buttonTag, imageName, message) {
   $(buttonTag).on("click", function() {
     $(".meme").attr("src", "img/gif/" + imageName);
     $(".message").text(message);
   });
 }
+
+setupButtons("#yes-btn", "happy.webp", "Cool! I hope it can help you!");
+setupButtons("#no-btn", "sad.webp", "Well... nobody is perfect!");
