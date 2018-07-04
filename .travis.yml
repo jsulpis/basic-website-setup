@@ -24,4 +24,4 @@ deploy:
   target-branch: gh-pages
   local-dir: dist
   on:
-    branch: master
+    branch: 02-complete-npm-webpack-setup
