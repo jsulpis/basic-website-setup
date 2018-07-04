@@ -1,0 +1,34 @@
+.my-card__media {
+  background-color: $material-color-grey-100;
+  max-height: 120px;
+}
+
+$media-list: (
+  webpack: 100px,
+  bootstrap: 130px,
+  sass: contain,
+  jquery: 160px,
+  material: 90px,
+  fontawesome: contain
+);
+
+@each $name, $size in $media-list {
+  .#{$name}-card {
+    @include set-background($size, "../img/brands/" + $name + ".png");
+  }
+}
+.my-card {
+  margin: auto;
+  margin-bottom: $default-spacing;
+  max-width: 300px; // for mobile display
+  transition: mdc-animation-standard(all, 0.1s);
+}
+
+.my-card:hover {
+  @include mdc-elevation(8);
+}
+.card-description {
+  padding: $default-spacing;
+  padding-bottom: 0;
+  text-align: center;
+}
