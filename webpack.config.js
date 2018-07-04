@@ -62,7 +62,9 @@ module.exports = {
             filename: 'credits.html',
             template: 'src/credits.html',
             chunks: ['credits']
-        }),
-        new BundleAnalyzerPlugin()
+        })
+        // Uncomment these lines to see an analysis of the content of the bundles
+        //,
+        //new BundleAnalyzerPlugin()
     ]
 };
