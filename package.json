@@ -23,7 +23,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@material/animation": "^0.34.0",
     "@material/button": "^0.37.0",
-    "@material/card": "^0.37.0",
+    "@material/card": "^0.38.0",
     "@material/elevation": "^0.36.1",
     "@material/theme": "^0.35.0",
     "@material/typography": "^0.35.0",
