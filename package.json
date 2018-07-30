@@ -25,7 +25,7 @@
     "@material/button": "^0.37.0",
     "@material/card": "^0.37.0",
     "@material/elevation": "^0.36.1",
-    "@material/theme": "^0.35.0",
+    "@material/theme": "^0.38.0",
     "@material/typography": "^0.35.0",
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1"
