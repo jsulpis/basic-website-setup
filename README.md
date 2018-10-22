@@ -4,17 +4,15 @@
 
 <p align="center">
   
-  [![Build Status](https://travis-ci.org/jsulpis/static-website-boilerplate.svg?branch=02-complete-npm-webpack-setup)](https://travis-ci.org/jsulpis/static-website-boilerplate)
-  [![dependencies Status](https://david-dm.org/jsulpis/static-website-boilerplate/status.svg)](https://david-dm.org/jsulpis/static-website-boilerplate)
-  [![devDependencies Status](https://david-dm.org/jsulpis/static-website-boilerplate/dev-status.svg)](https://david-dm.org/jsulpis/static-website-boilerplate?type=dev)
-  [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/jsulpis/static-website-boilerplate.svg)](https://greenkeeper.io/)
-  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/static-website-boilerplate/maintainability)
-  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/static-website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/static-website-boilerplate&amp;utm_campaign=Badge_Grade)
+  [![Build Status](https://travis-ci.org/jsulpis/website-boilerplate.svg?branch=02-complete-npm-webpack-setup)](https://travis-ci.org/jsulpis/website-boilerplate)
+  [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/website-boilerplate/maintainability)
+  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/website-boilerplate&amp;utm_campaign=Badge_Grade)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 </p>
 
 <p align="center">
-  <a href="https://jsulpis.github.io/static-website-boilerplate/"><img src="https://github.com/jsulpis/static-website-boilerplate/blob/02-complete-npm-webpack-setup/screenshot.jpg?raw=true" alt="ScreenShot image"/></a>
+  <a href="https://jsulpis.github.io/website-boilerplate/"><img class="repo-preview" src="https://raw.githubusercontent.com/jsulpis/website-boilerplate/02-complete-npm-webpack-setup/preview.png" alt="ScreenShot image"/></a>
 </p>
 
 ## Introduction
@@ -60,7 +58,7 @@ You will need the Node.js Package Manager (npm) to use this boilerplate. Optiona
 Download the zip or clone this project.
 
 ```
-git clone https://github.com/jsulpis/static-website-boilerplate.git
+git clone https://github.com/jsulpis/website-boilerplate.git
 cd static-website-boilerplate
 ```
 
@@ -114,8 +112,8 @@ In the plugins list, add a new HtmlWebpackPlugin and use the name of your page. 
 
 Contributions are welcome ! If you improve this boilerplate, feel free to share it.
 
-1. Fork the project (<https://github.com/jsulpis/static-website-boilerplate/fork>)
-2. Clone it on your machine (`git clone https://github.com/jsulpis/static-website-boilerplate.git`)
+1. Fork the project (<https://github.com/jsulpis/website-boilerplate/fork>)
+2. Clone it on your machine (`git clone https://github.com/jsulpis/website-boilerplate.git`)
 3. Create your feature branch (`git checkout -b feature/awesomeFeature`)
 4. Commit your changes (`git commit -am 'Add my awesome feature'`)
 5. Push your branch (`git push origin feature/awesomeFeature`)
@@ -123,4 +121,4 @@ Contributions are welcome ! If you improve this boilerplate, feel free to share 
 
 ## License
 
-Released under the [MIT](https://github.com/jsulpis/static-website-boilerplate/blob/02-complete-npm-webpack-setup/LICENSE) license.
+Released under the [MIT](https://github.com/jsulpis/website-boilerplate/blob/02-complete-npm-webpack-setup/LICENSE) license.
