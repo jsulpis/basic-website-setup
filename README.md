@@ -1,25 +1,25 @@
-<h1 align="center">Multi-page website boilerplate</h1>
+<h1 align="center">Multi-page website setup</h1>
 
-<h3 align="center">A boilerplate using common frontend librairies and optimized with Webpack.</h>
+<h3 align="center">A basic setup using common frontend librairies and optimized with Webpack.</h3>
 
 <p align="center">
-  
+
   [![Build Status](https://travis-ci.org/jsulpis/website-boilerplate.svg?branch=02-complete-npm-webpack-setup)](https://travis-ci.org/jsulpis/website-boilerplate)
   [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/website-boilerplate/maintainability)
-  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/website-boilerplate&amp;utm_campaign=Badge_Grade)
+  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/static-website-boilerplate/maintainability)
+  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/static-website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/static-website-boilerplate&amp;utm_campaign=Badge_Grade)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 </p>
 
 <p align="center">
-  <a href="https://jsulpis.github.io/website-boilerplate/"><img class="repo-preview" src="https://raw.githubusercontent.com/jsulpis/website-boilerplate/02-complete-npm-webpack-setup/preview.png" alt="ScreenShot image"/></a>
+  <a href="https://jsulpis.github.io/basic-website-setup/"><img class="repo-preview" src="https://raw.githubusercontent.com/jsulpis/basic-website-setup/02-complete-npm-webpack-setup/preview.png" alt="ScreenShot image"/>       </a>
 </p>
 
 ## Introduction
 
-This project aims at providing a website boilerplate using the most common frontend librairies and that is optimized enough to be used in production. Hopefully it will help people build their own website using the included librairies, however it can also serve as a basis to include other librairies, as it is the same procedure.
+This project aims at providing a basic website setup using the most common frontend librairies and that is optimized enough to be used in production. Hopefully it will help people build their own website using the included librairies, however it can also serve as a basis to include other librairies, as it is the same procedure.
 
-Unlike many boilerplates, this one is built with multi-page websites in mind. Indeed, it is configured to generate one css bundle and one javascript bundle per html file.
+Unlike many templates, this one is built with multi-page websites in mind. Indeed, it is configured to generate one css bundle and one javascript bundle per html file.
 
 ## Features
 
@@ -58,8 +58,8 @@ You will need the Node.js Package Manager (npm) to use this boilerplate. Optiona
 Download the zip or clone this project.
 
 ```
-git clone https://github.com/jsulpis/website-boilerplate.git
-cd static-website-boilerplate
+git clone https://github.com/jsulpis/basic-website-setup.git
+cd basic-website-setup
 ```
 
 then install all the dependencies with npm.
@@ -88,7 +88,7 @@ npm run build
 
 ## Configuration
 
-Once everything works as expected, here is how to make your own pages using this boilerplate.
+Once everything works as expected, here is how to make your own pages using this setup.
 
 **src folder**
 
@@ -112,8 +112,8 @@ In the plugins list, add a new HtmlWebpackPlugin and use the name of your page. 
 
 Contributions are welcome ! If you improve this boilerplate, feel free to share it.
 
-1. Fork the project (<https://github.com/jsulpis/website-boilerplate/fork>)
-2. Clone it on your machine (`git clone https://github.com/jsulpis/website-boilerplate.git`)
+1. Fork the project (<https://github.com/jsulpis/basic-website-setup/fork>)
+2. Clone it on your machine (`git clone https://github.com/yourName/basic-website-setup.git`)
 3. Create your feature branch (`git checkout -b feature/awesomeFeature`)
 4. Commit your changes (`git commit -am 'Add my awesome feature'`)
 5. Push your branch (`git push origin feature/awesomeFeature`)
@@ -121,4 +121,4 @@ Contributions are welcome ! If you improve this boilerplate, feel free to share 
 
 ## License
 
-Released under the [MIT](https://github.com/jsulpis/website-boilerplate/blob/02-complete-npm-webpack-setup/LICENSE) license.
+Released under the [MIT](https://github.com/jsulpis/basic-website-setup/blob/02-complete-npm-webpack-setup/LICENSE) license.
