@@ -3,12 +3,21 @@
 <h3 align="center">A basic setup using common frontend librairies and optimized with Webpack.</h3>
 
 <p align="center">
-
-  [![Build Status](https://travis-ci.org/jsulpis/website-boilerplate.svg?branch=02-complete-npm-webpack-setup)](https://travis-ci.org/jsulpis/website-boilerplate)
-  [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-  [![Maintainability](https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability)](https://codeclimate.com/github/jsulpis/static-website-boilerplate/maintainability)
-  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa)](https://www.codacy.com/app/jsulpis/static-website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/static-website-boilerplate&amp;utm_campaign=Badge_Grade)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+  <a href="https://travis-ci.org/jsulpis/basic-website-setup">
+		<img alt="Build Status" src="https://travis-ci.org/jsulpis/basic-website-setup.svg?branch=02-complete-npm-webpack-setup" />
+	</a>
+  <a href="https://github.com/prettier/prettier">
+		<img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" />
+	</a>
+  <a href="https://codeclimate.com/github/jsulpis/static-website-boilerplate/maintainability">
+		<img alt="Maintainability" src="https://api.codeclimate.com/v1/badges/57574c52be855a7f396e/maintainability" />
+	</a>
+  <a href="https://www.codacy.com/app/jsulpis/static-website-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jsulpis/static-website-boilerplate&amp;utm_campaign=Badge_Grade">
+		<img alt="Codacy Badge" src="https://api.codacy.com/project/badge/Grade/085e9b5003fa4f37b3fab1361eca0efa" />
+	</a>
+  <a href="http://makeapullrequest.com">
+		<img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+	</a>
 </p>
 
 <p align="center">
