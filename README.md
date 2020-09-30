@@ -1,6 +1,6 @@
 <h1 align="center">Multi-page website setup</h1>
 
-<h3 align="center">A basic setup using common frontend librairies and optimized with Webpack.</h3>
+<h3 align="center">A basic setup using common frontend libraries and optimized with Webpack.</h3>
 
 <p align="center">
   <a href="https://travis-ci.org/jsulpis/basic-website-setup">
