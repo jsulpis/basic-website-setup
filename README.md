@@ -1,6 +1,6 @@
 <h1 align="center">Multi-page website setup</h1>
 
-<h3 align="center">A basic setup using common frontend librairies and optimized with Webpack.</h3>
+<h3 align="center">A basic setup using common frontend libraries and optimized with Webpack.</h3>
 
 <p align="center">
   <a href="https://travis-ci.org/jsulpis/basic-website-setup">
@@ -26,13 +26,13 @@
 
 ## Introduction
 
-This project aims at providing a basic website setup using the most common frontend librairies and that is optimized enough to be used in production. Hopefully it will help people build their own website using the included librairies, however it can also serve as a basis to include other librairies, as it is the same procedure.
+This project aims at providing a basic website setup using the most common frontend libraries and that is optimized enough to be used in production. Hopefully it will help people build their own website using the included libraries, however it can also serve as a basis to include other libraries, as it is the same procedure.
 
 Unlike many templates, this one is built with multi-page websites in mind. Indeed, it is configured to generate one css bundle and one javascript bundle per html file.
 
 ## Features
 
-**Frontend librairies:**
+**Frontend libraries:**
 - [Bootstrap](https://getbootstrap.com/)
 - [JQuery](https://jquery.com/)
 - [Material Design](https://material.io/)
@@ -109,7 +109,7 @@ Add you sccs file.
 
 **src/js**
 
-Create a js file on the model of index.js and credits.js. This file is the entry point of all the process of your page. Include your scss file, vendor librairies if you need some, and your own javascript code.
+Create a js file on the model of index.js and credits.js. This file is the entry point of all the process of your page. Include your scss file, vendor libraries if you need some, and your own javascript code.
 
 **webpack.config.js**
 
