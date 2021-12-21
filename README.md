@@ -1,3 +1,5 @@
+**Note** : this is an old repository, poorly optimized and not maintained. You should not use it. I keep it for archive only.
+
 <h1 align="center">Multi-page website setup</h1>
 
 <h3 align="center">A basic setup using common frontend libraries and optimized with Webpack.</h3>
